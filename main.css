@@ -3,7 +3,8 @@
     box-sizing:border-box ;
 }
 nav{
-    width:100;
+    width:100vh;
+    height:100vh;
     background-image: url(img/image-hero.jpg) ;
 }
 .outernav{
