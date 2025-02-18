@@ -5,6 +5,7 @@
 nav{
     width:100%;
     background-image: url(img/image-hero.jpg) ;
+    display:flex;
 }
 .outernav{
     display:flex;
