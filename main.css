@@ -20,5 +20,7 @@ nav p{
     font-size: 30px;
 }
 .Immersive{
+    width:10%;
     border: solid 2px white;
+    font-size: medium;
 }
