@@ -10,6 +10,6 @@ nav{
     display:flex;
     flex-direction:column ;
 }
-.outernav , .Immersive{
+nav p{
     color:white;
 }
