@@ -31,7 +31,7 @@ nav p{
 /*------------- Header ----------------*/
 
 .header {
-    margin: 120px;
+    margin: 145px;
     display: flex;
     align-items: last baseline;
 }
@@ -64,4 +64,109 @@ nav p{
     line-height: 20px;
     color: rgba(0, 0, 0, 0.452);
     width: 130%;
+}
+
+/*----------- Body --------------*/
+
+.body {
+    margin: 135px;
+}
+
+.headline {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+
+button {
+    padding: 10px 30px;
+    text-transform: uppercase;
+    background: none;
+    border: solid rgb(78, 78, 78) 2px;
+    border-radius: 3px;
+}
+
+button:hover {
+    background-color: rgb(78, 78, 78);
+    color: white;
+    cursor: pointer;
+}
+
+.contents {
+    display: flex;
+    flex-direction: column;
+}
+
+.up {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+
+#c1 {
+    background: url("img/image-deep-earth.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#c2 {
+    background: url("img/image-night-arcade.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#c3 {
+    background: url("img/image-soccer-team.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#c4 {
+    background: url("img/image-grid.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.child {
+    height: 450px;
+    width: 23%;
+}
+
+span {
+    color: white;
+    position: relative;
+    top: 350px;
+    left: 35px;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+.down {
+    display: flex;
+    justify-content: space-between;
+}
+
+#c5 {
+    background: url("img/image-from-above.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#c6 {
+    background: url("img/image-pocket-borealis.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#c7 {
+    background: url("img/image-curiosity.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#c8 {
+    background: url("img/image-fisheye.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
