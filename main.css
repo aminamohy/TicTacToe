@@ -3,7 +3,6 @@
     box-sizing:border-box ;
 }
 nav{
-    margin:0%;
     width:100%;
     height:500px;
     background-image: url(img/image-hero.jpg) ;
@@ -19,4 +18,7 @@ nav p{
 .loops{
     font-weight: 600; 
     font-size: 30px;
+}
+.Immersive{
+    border: solid 2px white;
 }
