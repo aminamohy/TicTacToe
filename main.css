@@ -9,6 +9,7 @@ nav{
 }
 .outernav{
     display:flex;
+    justify-content:space-between ;
 }
 nav p{
     color:white;
