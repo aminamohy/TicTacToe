@@ -251,3 +251,76 @@ i {
 i:hover {
     color: #FFD700; 
 }
+@media(max-width:600px){
+     nav{
+        width:100%;
+        
+    }
+    .humicon{
+        display:block !important ;
+        font-size:40px;
+        font-weight: 100;
+        transform: scaleY(0.7);
+    }
+    .discover{
+        display:none;
+        flex-direction: column;
+        position: absolute;
+        top: 50px;
+        left: 0;
+        background: rgba(0, 0, 0, 0.9);
+        width: 100%;
+        text-align: center;
+        padding: 20px 0;
+        gap: 15px;
+        transition: all 0.3s ease-in-out;
+    }
+    .discover.active {
+        display: flex;
+    }
+    .Immersive{
+        width:fit-content;
+        border: solid 2px white;
+        font-size: 50px;
+        padding:25px;
+        margin-top:7%;
+        letter-spacing: 4px;
+    }
+    .discover.active {
+        display: flex; 
+    } 
+     footer{
+        display:flex;
+        flex-direction:column ;
+        align-items:center;
+        text-align: center;
+        gap:10px;
+        
+     }
+     
+     .about{
+        display:flex;
+        flex-direction: column ;
+        justify-content: center;
+        gap:10px;
+        text-align: center;
+     }
+     .left{
+        display: flex;
+        flex-direction: column ;
+        gap:10px;
+     }
+     .right{
+        display:flex;
+        flex-direction: column ;
+        gap:10px;
+     }
+     .icons{
+        display: flex;
+        margin-top: 10px;
+        justify-content:center ;
+     }
+
+     
+    
+}  
