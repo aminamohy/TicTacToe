@@ -218,3 +218,14 @@ i {
     transition: 0.3s;
     
 }
+.facebook i{
+    color: black ;
+    background-color: white;
+    padding-left: 8px;
+    padding-right: 2px;
+    padding-top: 4px;
+    border-radius: 2px;
+}
+i:hover {
+    color: #FFD700; 
+}
