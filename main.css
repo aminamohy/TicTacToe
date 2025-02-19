@@ -365,17 +365,6 @@ i:hover {
         margin-bottom: 30px;
     }
 
-    #c1 {
-        background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(img/image-deep-earth-rotated.jpg);
-        background-repeat: no-repeat;
-        background-size: cover; 
-    }
-
-    #c2 {
-        background: url(img/image-night-arcade.jpg);
-        background-position: center;
-    }
-
     #specialbutton {
         display: block;
         margin: auto;
