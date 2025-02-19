@@ -207,6 +207,7 @@ footer{
 }
 .copyrught{
 padding-top: 5%;
+
 }
 .right{
     padding-top: 1%;
@@ -218,6 +219,14 @@ i {
     transition: 0.3s;
     
 }
+.icons{
+    margin-bottom: 5%;
+    margin-left: 15%;
+}
+footer .logo{
+    margin-bottom:6% ;
+}
+
 .facebook i{
     color: black ;
     background-color: white;
