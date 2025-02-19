@@ -1,17 +1,22 @@
+@import url('https://db.onlinewebfonts.com/c/381822f9ca78c5d9b15e8a0b5b122b66?family=Neology+Deco+W03+Regular');
+
 *{
     margin:0;
     padding: 0;
     box-sizing:border-box ;
+    font-family: "Neology Deco W03 Regular";
 }
 nav{
     width:100%;
     height:500px;
-    background-image: url(img/image-hero.jpg);
+    background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(img/image-hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     padding:4%;
-    padding-left:7%;
-    padding-right: 7%;
-
+    padding-left: 150px;
+    padding-right: 150px;
 }
+
 .outernav{
     display:flex;
     justify-content:space-between;
@@ -31,13 +36,14 @@ nav p{
     font-weight: bold;
 }
 .Immersive{
-    width:38%;
+    width:50%;
     border: solid 2px white;
     font-size: 50px;
     padding:25px;
     margin-top:7%;
-    
+    letter-spacing: 4px;
 }
+
 .discover{
     display:flex;
     justify-content: space-between;
@@ -49,7 +55,7 @@ nav p{
 /*------------- Header ----------------*/
 
 .header {
-    margin: 145px;
+    margin: 150px;
     display: flex;
     align-items: last baseline;
 }
@@ -74,26 +80,31 @@ nav p{
     font-size: 2.2rem;
     width: 100%;
     text-transform: uppercase;
-    margin-bottom: 25px;
+    margin-bottom: 30px;
 }
 
 .headh5 {
-    font-size: 0.8rem;
-    line-height: 20px;
+    font-size: 0.9rem;
+    line-height: 24px;
     color: rgba(0, 0, 0, 0.452);
     width: 130%;
+    letter-spacing: 1.5px;
 }
 
 /*----------- Body --------------*/
 
 .body {
-    margin: 135px;
+    margin: 200px 150px;
 }
 
 .headline {
     display: flex;
     justify-content: space-between;
     margin-bottom: 60px;
+}
+
+.headline h1 {
+    text-transform: uppercase;
 }
 
 button {
@@ -122,40 +133,41 @@ button:hover {
 }
 
 #c1 {
-    background: url("img/image-deep-earth.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),url("img/image-deep-earth.jpg") ;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 #c2 {
-    background: url("img/image-night-arcade.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("img/image-night-arcade.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 #c3 {
-    background: url("img/image-soccer-team.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("img/image-soccer-team.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 #c4 {
-    background: url("img/image-grid.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("img/image-grid.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 
 .child {
-    height: 450px;
+    display: flex;
+    align-items: end;
+    height: 75vh;
     width: 23%;
 }
 
 span {
     color: white;
-    position: relative;
-    top: 350px;
-    left: 35px;
+    position: left;
+    margin: 0px 0px 30px 30px;
     font-size: 2rem;
     text-transform: uppercase;
 }
@@ -166,25 +178,25 @@ span {
 }
 
 #c5 {
-    background: url("img/image-from-above.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("img/image-from-above.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 #c6 {
-    background: url("img/image-pocket-borealis.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("img/image-pocket-borealis.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 #c7 {
-    background: url("img/image-curiosity.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("img/image-curiosity.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 #c8 {
-    background: url("img/image-fisheye.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("img/image-fisheye.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -195,26 +207,37 @@ footer{
     justify-content: space-between;
     color:white;
     padding-left: 10%;
-    padding-right: 4%;
-    padding-top: 2%;
-    padding-bottom:4%;
+    padding-right: 10%;
+    padding-top: 3%;
+    padding-bottom:3%;
     width:100%;
 }
 .about {
     display:flex;
-    padding-top:5%;
     gap:10%;
+    margin-top: 30px;
 }
-.copyrught{
-padding-top: 5%;
+.copyright{
+    margin-top: 30px;
+    color: rgb(112, 112, 112);
+    font-weight: bold;
 }
 .right{
     padding-top: 1%;
 }
+
+.icons {
+    display: flex;
+    justify-content: right;
+}
+
 i {
     font-size: 24px;
     color: white;
     margin-right: 15px;
     transition: 0.3s;
-    
+}
+
+#lasticon {
+    margin-right: 0px;
 }
