@@ -16,7 +16,6 @@ nav{
     padding-left: 150px;
     padding-right: 150px;
 }
-
 .outernav{
     display:flex;
     justify-content:space-between;
@@ -27,7 +26,6 @@ nav{
 
 nav p{
     color:white;
-    
 }
 
 
@@ -43,7 +41,6 @@ nav p{
     margin-top:7%;
     letter-spacing: 4px;
 }
-
 .discover{
     display:flex;
     justify-content: space-between;
@@ -53,7 +50,6 @@ nav p{
 
 
 /*------------- Header ----------------*/
-
 .header {
     margin: 150px;
     display: flex;
@@ -200,7 +196,9 @@ span {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 /* footer */
+
 footer{
     display:flex;
     background-color:black;
@@ -212,12 +210,13 @@ footer{
     padding-bottom:3%;
     width:100%;
 }
+
 .about {
     display:flex;
     gap:10%;
     margin-top: 30px;
 }
-.copyright{
+.copyrught{
     margin-top: 30px;
     color: rgb(112, 112, 112);
     font-weight: bold;
@@ -225,12 +224,6 @@ footer{
 .right{
     padding-top: 1%;
 }
-
-.icons {
-    display: flex;
-    justify-content: right;
-}
-
 i {
     font-size: 24px;
     color: white;
@@ -240,4 +233,21 @@ i {
 
 #lasticon {
     margin-right: 0px;
+}
+
+.icons {
+    display: flex;
+    justify-content: right;
+}
+
+.facebook i{
+    color: black ;
+    background-color: white;
+    border-radius: 2px;
+    padding-left: 7px;
+    padding-right:2px;
+    padding-top: 2px;
+}
+i:hover {
+    color: #FFD700; 
 }
