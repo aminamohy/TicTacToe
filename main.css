@@ -260,6 +260,7 @@ i:hover {
         display:block !important ;
         font-size:40px;
         font-weight: 100;
+        margin-top:10px;
         transform: scaleY(0.7);
     }
     .discover{
