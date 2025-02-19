@@ -244,6 +244,9 @@ i {
     color: black ;
     background-color: white;
     border-radius: 2px;
+    padding-left: 7px;
+    padding-right:2px;
+    padding-top: 2px;
 }
 i:hover {
     color: #FFD700; 
