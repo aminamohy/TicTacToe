@@ -1,3 +1,4 @@
+
 @import url('https://db.onlinewebfonts.com/c/381822f9ca78c5d9b15e8a0b5b122b66?family=Neology+Deco+W03+Regular');
 
 *{
@@ -7,7 +8,6 @@
     font-family: "Neology Deco W03 Regular";
 }
 nav{
-    width:100%;
     height:500px;
     background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(img/image-hero.jpg);
     background-repeat: no-repeat;
@@ -16,11 +16,15 @@ nav{
     padding-left: 150px;
     padding-right: 150px;
 }
+
+#menuIcon {
+    display: none;
+}
+
 .outernav{
     display:flex;
     justify-content:space-between;
     align-items: center;
-    margin-right: 2%;
 }
 
 
@@ -216,7 +220,7 @@ footer{
     gap:10%;
     margin-top: 30px;
 }
-.copyrught{
+.copyright{
     margin-top: 30px;
     color: rgb(112, 112, 112);
     font-weight: bold;
@@ -227,7 +231,6 @@ footer{
 i {
     font-size: 24px;
     color: white;
-    margin-right: 15px;
     transition: 0.3s;
 }
 
@@ -251,11 +254,21 @@ i {
 i:hover {
     color: #FFD700; 
 }
-@media(max-width:600px){
-     nav{
-        width:100%;
-        
+@media(max-width:600px){  
+    
+    nav {
+        padding: 0px;
+        height: 500px;
     }
+
+    .outernav {
+        margin: 0px 25px;
+    }
+
+    #menuIcon {
+        display: block;
+    }
+
     .humicon{
         display:block !important ;
         font-size:40px;
@@ -280,12 +293,12 @@ i:hover {
         display: flex;
     }
     .Immersive{
-        width:fit-content;
+        width: fit-content;
         border: solid 2px white;
-        font-size: 50px;
-        padding:25px;
-        margin-top:7%;
+        padding:15px;
+        margin:150px 25px;
         letter-spacing: 4px;
+        font-size: 2rem;
     }
     .discover.active {
         display: flex; 
@@ -294,11 +307,17 @@ i:hover {
     /*------ Header -------*/
 
     .header {
-        margin: 100px 40px;
+        margin: 100px 25px;
         flex-direction: column;
     }
 
     .headimgdiv {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .headimg {
         width: 100%;
     }
 
@@ -326,7 +345,7 @@ i:hover {
     /*------ Body ------*/
 
     .body {
-        margin: 40px;
+        margin: 25px 25px 100px 25px;
         display: flex;
         flex-direction: column;
     }
@@ -361,7 +380,7 @@ i:hover {
 
     .child {
         width: 100%;
-        height: 40vh;
+        height: 150px;
         margin-bottom: 30px;
     }
 
@@ -394,25 +413,31 @@ i:hover {
         display:flex;
         flex-direction: column ;
         justify-content: center;
-        gap:10px;
+        gap:20px;
         text-align: center;
      }
      .left{
         display: flex;
         flex-direction: column ;
         gap:10px;
+        margin-top: 40px;
      }
      .right{
         display:flex;
         flex-direction: column ;
-        gap:10px;
      }
      .icons{
         display: flex;
-        margin-top: 10px;
+        margin-top: 30px;
         justify-content:center ;
      }
+     .icons i {
+        margin-right: 20px;
+     }
 
-     
-    
+     .copyright {
+        color: rgb(112, 112, 112);
+        margin-bottom: 50px;
+     }
+
 }  
