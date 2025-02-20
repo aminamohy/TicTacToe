@@ -201,6 +201,10 @@ span {
     background-size: cover;
 }
 
+#specialbutton {
+    display: none;
+}
+
 /* footer */
 
 footer{
@@ -208,11 +212,10 @@ footer{
     background-color:black;
     justify-content: space-between;
     color:white;
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 150px;
+    padding-right: 150px;
     padding-top: 3%;
     padding-bottom:3%;
-    width:100%;
 }
 
 .about {
@@ -232,6 +235,7 @@ i {
     font-size: 24px;
     color: white;
     transition: 0.3s;
+    margin-left: 15px;
 }
 
 #lasticon {
@@ -259,6 +263,7 @@ i:hover {
     nav {
         padding: 0px;
         height: 500px;
+        padding-top: 30px;
     }
 
     .outernav {
@@ -406,7 +411,8 @@ i:hover {
         align-items:center;
         text-align: center;
         gap:10px;
-        
+        padding-left: 0px;
+        padding-right: 0px;
      }
      
      .about{
@@ -433,6 +439,7 @@ i:hover {
      }
      .icons i {
         margin-right: 20px;
+        margin-left: 0px;
      }
 
      .copyright {
